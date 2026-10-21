@@ -7,10 +7,10 @@
 [English](README.en.md) · **Simplified Chinese**
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg?style=flat-square)](./LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/ystemsrx/sql_to_ER?style=flat-square&color=gold)](https://github.com/ystemsrx/sql_to_ER/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/ystemsrx/sql_to_ER?style=flat-square&color=blue)](https://github.com/ystemsrx/sql_to_ER/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/ystemsrx/sql_to_ER?style=flat-square&color=red)](https://github.com/ystemsrx/sql_to_ER/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/ystemsrx/sql_to_ER?style=flat-square&color=green)](https://github.com/ystemsrx/sql_to_ER/commits)
+[![GitHub Stars](https://img.shields.io/github/stars/ystemsrx/sql-to-ER?style=flat-square&color=gold)](https://github.com/ystemsrx/sql-to-ER/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/ystemsrx/sql-to-ER?style=flat-square&color=blue)](https://github.com/ystemsrx/sql-to-ER/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/ystemsrx/sql-to-ER?style=flat-square&color=red)](https://github.com/ystemsrx/sql-to-ER/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/ystemsrx/sql-to-ER?style=flat-square&color=green)](https://github.com/ystemsrx/sql-to-ER/commits)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](#)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](#)
 [![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white)](#)
@@ -18,7 +18,7 @@
 [![Vitest](https://img.shields.io/badge/Vitest-4-6E9F18?style=flat-square&logo=vitest&logoColor=white)](#)
 [![pnpm](https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white)](#)
 
-### 🌐 [**Try Online · Live Demo**](https://ystemsrx.github.io/sql_to_ER/sql2er.html)
+### 🌐 [**Try Online · Live Demo**](https://ystemsrx.github.io/sql-to-ER/sql2er.html)
 
 </div>
 
@@ -29,7 +29,7 @@
 Install the sql2er Agent Skill with one command:
 
 ```bash
-npx skills add ystemsrx/sql_to_er
+npx skills add ystemsrx/sql-to-ER
 ```
 
 ---
@@ -47,13 +47,13 @@ A **pure front-end** web tool for generating **Chen-model ER diagrams** from SQL
 
 The easiest way — just open the **online version**, no installation needed:
 
-🔗 **[ER Diagram Generator](https://ystemsrx.github.io/sql_to_ER/sql2er.html)**
+🔗 **[ER Diagram Generator](https://ystemsrx.github.io/sql-to-ER/sql2er.html)**
 
 Or run it locally for development. This project uses [pnpm](https://pnpm.io/) (the version is pinned via the `packageManager` field — `corepack enable` lets Corepack pick it up automatically):
 
 ```bash
-git clone https://github.com/ystemsrx/sql_to_ER.git
-cd sql_to_ER
+git clone https://github.com/ystemsrx/sql-to-ER.git
+cd sql-to-ER
 corepack enable        # one-time, enables Corepack to manage the pnpm version
 pnpm install
 pnpm dev

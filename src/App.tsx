@@ -42,7 +42,7 @@ registerCustomNodes(G6);
 const FONT_SCALE_MIN = 0.4;
 const FONT_SCALE_MAX = 1.6;
 const FONT_SCALE_RANGE = FONT_SCALE_MAX - FONT_SCALE_MIN;
-const SKILL_INSTALL_COMMAND = "npx skills add ystemsrx/sql_to_er";
+const SKILL_INSTALL_COMMAND = "npx skills add ystemsrx/sql-to-ER";
 const PREVIEW_HEADER_GAP = 16;
 
 const App = () => {

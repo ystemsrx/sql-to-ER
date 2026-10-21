@@ -7,10 +7,10 @@
 [English](README.en.md) · **简体中文**
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg?style=flat-square)](./LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/ystemsrx/sql_to_ER?style=flat-square&color=gold)](https://github.com/ystemsrx/sql_to_ER/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/ystemsrx/sql_to_ER?style=flat-square&color=blue)](https://github.com/ystemsrx/sql_to_ER/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/ystemsrx/sql_to_ER?style=flat-square&color=red)](https://github.com/ystemsrx/sql_to_ER/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/ystemsrx/sql_to_ER?style=flat-square&color=green)](https://github.com/ystemsrx/sql_to_ER/commits)
+[![GitHub Stars](https://img.shields.io/github/stars/ystemsrx/sql-to-ER?style=flat-square&color=gold)](https://github.com/ystemsrx/sql-to-ER/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/ystemsrx/sql-to-ER?style=flat-square&color=blue)](https://github.com/ystemsrx/sql-to-ER/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/ystemsrx/sql-to-ER?style=flat-square&color=red)](https://github.com/ystemsrx/sql-to-ER/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/ystemsrx/sql-to-ER?style=flat-square&color=green)](https://github.com/ystemsrx/sql-to-ER/commits)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](#)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](#)
 [![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white)](#)
@@ -18,7 +18,7 @@
 [![Vitest](https://img.shields.io/badge/Vitest-4-6E9F18?style=flat-square&logo=vitest&logoColor=white)](#)
 [![pnpm](https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white)](#)
 
-### 🌐 [**在线体验 · Live Demo**](https://ystemsrx.github.io/sql_to_ER/sql2er.html)
+### 🌐 [**在线体验 · Live Demo**](https://ystemsrx.github.io/sql-to-ER/sql2er.html)
 
 </div>
 
@@ -29,7 +29,7 @@
 通过一条命令安装 sql2er Agent Skill：
 
 ```bash
-npx skills add ystemsrx/sql_to_er
+npx skills add ystemsrx/sql-to-ER
 ```
 
 ---
@@ -50,15 +50,15 @@ npx skills add ystemsrx/sql_to_er
 
 直接访问在线版本即可使用，**无需安装**：
 
-🔗 **[ER Diagram Generator](https://ystemsrx.github.io/sql_to_ER/sql2er.html)**
+🔗 **[ER Diagram Generator](https://ystemsrx.github.io/sql-to-ER/sql2er.html)**
 
 或者克隆到本地开发运行：
 
 本项目使用 [pnpm](https://pnpm.io/) 作为包管理器（已通过 `packageManager` 字段锁定版本，建议先 `corepack enable` 让其自动安装）。
 
 ```bash
-git clone https://github.com/ystemsrx/sql_to_ER.git
-cd sql_to_ER
+git clone https://github.com/ystemsrx/sql-to-ER.git
+cd sql-to-ER
 corepack enable        # 一次性，启用 Corepack 自动管理 pnpm 版本
 pnpm install
 pnpm dev

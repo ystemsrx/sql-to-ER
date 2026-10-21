@@ -55,12 +55,12 @@ jobs:
       - name: Unit tests
         run: pnpm test
 
-      # build 走 BASE_PATH=/sql_to_ER/，与 Pages 部署保持一致；
+      # build 根据仓库名设置 BASE_PATH，与 Pages 部署保持一致；
       # 这样 PR 阶段就能在 vite.config.ts 改坏 base 时立刻失败。
       - name: Production build (Pages base)
         run: pnpm build
         env:
-          BASE_PATH: /sql_to_ER/
+          BASE_PATH: /${{ github.event.repository.name }}/
 
       - name: Upload dist as artifact
         uses: actions/upload-artifact@v7
